@@ -3,16 +3,16 @@
 
 # Vital Components
 
-# Status - first PCB on the way
+# Status - startup
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | done |
-| | pcb | done  |
-| | gerber | done |
-| production  |   | ordered |
-|  | produced | done |
-|  | delivered | on the way |
+| create material  | sch |  |
+| | pcb |   |
+| | gerber |  |
+| production  |   |  |
+|  | produced |  |
+|  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
