@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:KicadJE-EuroPowerSupply-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -967,39 +966,6 @@ Input Power and power LED
 Text Notes 4675 2175 0    98   ~ 20
 Power Output
 $Comp
-L power:+5V #PWR0104
-U 1 1 5D11D8A0
-P 7650 925
-F 0 "#PWR0104" H 7650 775 50  0001 C CNN
-F 1 "+5V" H 7665 1098 50  0000 C CNN
-F 2 "" H 7650 925 50  0001 C CNN
-F 3 "" H 7650 925 50  0001 C CNN
-	1    7650 925 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0101
-U 1 1 5D11D90B
-P 7025 925
-F 0 "#PWR0101" H 7025 775 50  0001 C CNN
-F 1 "+12V" H 7040 1098 50  0000 C CNN
-F 2 "" H 7025 925 50  0001 C CNN
-F 3 "" H 7025 925 50  0001 C CNN
-	1    7025 925 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR0102
-U 1 1 5D11D976
-P 7250 925
-F 0 "#PWR0102" H 7250 1025 50  0001 C CNN
-F 1 "-12V" H 7265 1098 50  0000 C CNN
-F 2 "" H 7250 925 50  0001 C CNN
-F 3 "" H 7250 925 50  0001 C CNN
-	1    7250 925 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0107
 U 1 1 5D1599F7
 P 5650 1500
@@ -1014,125 +980,6 @@ Wire Wire Line
 	5650 1500 5650 1425
 Wire Wire Line
 	5650 1425 5800 1425
-$Comp
-L power:GND #PWR0103
-U 1 1 5D177D4E
-P 7450 925
-F 0 "#PWR0103" H 7450 675 50  0001 C CNN
-F 1 "GND" H 7455 752 50  0000 C CNN
-F 2 "" H 7450 925 50  0001 C CNN
-F 3 "" H 7450 925 50  0001 C CNN
-	1    7450 925 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP102
-U 1 1 5D177EF4
-P 7025 1125
-F 0 "TP102" H 7025 1150 50  0000 R CNN
-F 1 "RED Banana" H 7100 1325 50  0000 R CNN
-F 2 "MountingHole:MountingHole_6.4mm_M6_ISO14580_Pad" H 7225 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7225 1125 50  0001 C CNN
-	1    7025 1125
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP101
-U 1 1 5D1780D0
-P 6950 1125
-F 0 "TP101" H 7075 1150 50  0000 R CNN
-F 1 "RED Sleeve" H 7000 1400 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7150 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7150 1125 50  0001 C CNN
-	1    6950 1125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7025 1125 7025 925 
-Wire Wire Line
-	6950 1125 7025 1125
-Connection ~ 7025 1125
-$Comp
-L Connector:TestPoint TP104
-U 1 1 5D1B4CE6
-P 7250 1125
-F 0 "TP104" H 7250 1150 50  0000 R CNN
-F 1 "BLUE Banana" H 7325 1475 50  0000 R CNN
-F 2 "MountingHole:MountingHole_6.4mm_M6_ISO14580_Pad" H 7450 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7450 1125 50  0001 C CNN
-	1    7250 1125
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP103
-U 1 1 5D1B4CEC
-P 7175 1125
-F 0 "TP103" H 7300 1150 50  0000 R CNN
-F 1 "BLUE Sleeve" H 7225 1550 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7375 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7375 1125 50  0001 C CNN
-	1    7175 1125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7250 1125 7250 925 
-Wire Wire Line
-	7175 1125 7250 1125
-Connection ~ 7250 1125
-$Comp
-L Connector:TestPoint TP106
-U 1 1 5D1D35CB
-P 7450 1125
-F 0 "TP106" H 7450 1150 50  0000 R CNN
-F 1 "BLACK Banana" H 7425 1325 50  0000 R CNN
-F 2 "MountingHole:MountingHole_6.4mm_M6_ISO14580_Pad" H 7650 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7650 1125 50  0001 C CNN
-	1    7450 1125
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP105
-U 1 1 5D1D35D1
-P 7375 1125
-F 0 "TP105" H 7500 1150 50  0000 R CNN
-F 1 "BLACK Sleeve" H 7375 1400 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7575 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7575 1125 50  0001 C CNN
-	1    7375 1125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7450 1125 7450 925 
-Wire Wire Line
-	7375 1125 7450 1125
-Connection ~ 7450 1125
-$Comp
-L Connector:TestPoint TP108
-U 1 1 5D1F229B
-P 7650 1125
-F 0 "TP108" H 7650 1150 50  0000 R CNN
-F 1 "RED Banana" H 7600 1475 50  0000 R CNN
-F 2 "MountingHole:MountingHole_6.4mm_M6_ISO14580_Pad" H 7850 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7850 1125 50  0001 C CNN
-	1    7650 1125
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP107
-U 1 1 5D1F22A1
-P 7575 1125
-F 0 "TP107" H 7700 1150 50  0000 R CNN
-F 1 "RED Sleeve" H 7525 1550 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7775 1125 50  0001 C CNN
-F 3 "https://www.aliexpress.com/item/10X-Banana-plug-Banana-Jack-socket-4mm-copper-Dia-4-banana-panel-Terminal-audio-accessories/32801664396.html?spm=a2g0s.13010208.99999999.265.13993c00BdNvjp" H 7775 1125 50  0001 C CNN
-	1    7575 1125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7650 1125 7650 925 
-Wire Wire Line
-	7575 1125 7650 1125
-Connection ~ 7650 1125
 $Comp
 L Connector:Barrel_Jack J105
 U 1 1 5D2307C7
@@ -1319,143 +1166,57 @@ Wire Wire Line
 Wire Wire Line
 	6150 2900 7550 2900
 $Comp
-L Connector:Conn_01x04_Male J108
-U 1 1 5C8F1F4B
-P 9275 4750
-F 0 "J108" H 9381 5028 50  0000 C CNN
-F 1 "FrontInterConnVout" H 9381 4937 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 9275 4750 50  0001 C CNN
-F 3 "~" H 9275 4750 50  0001 C CNN
-	1    9275 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0120
-U 1 1 5C8F21DA
-P 10300 4175
-F 0 "#PWR0120" H 10300 4025 50  0001 C CNN
-F 1 "+5V" H 10315 4348 50  0000 C CNN
-F 2 "" H 10300 4175 50  0001 C CNN
-F 3 "" H 10300 4175 50  0001 C CNN
-	1    10300 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0122
-U 1 1 5C8F21E0
-P 9675 4175
-F 0 "#PWR0122" H 9675 4025 50  0001 C CNN
-F 1 "+12V" H 9690 4348 50  0000 C CNN
-F 2 "" H 9675 4175 50  0001 C CNN
-F 3 "" H 9675 4175 50  0001 C CNN
-	1    9675 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR0124
-U 1 1 5C8F21E6
-P 9900 4175
-F 0 "#PWR0124" H 9900 4275 50  0001 C CNN
-F 1 "-12V" H 9915 4348 50  0000 C CNN
-F 2 "" H 9900 4175 50  0001 C CNN
-F 3 "" H 9900 4175 50  0001 C CNN
-	1    9900 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5C8F21EC
-P 10100 4175
-F 0 "#PWR0126" H 10100 3925 50  0001 C CNN
-F 1 "GND" H 10105 4002 50  0000 C CNN
-F 2 "" H 10100 4175 50  0001 C CNN
-F 3 "" H 10100 4175 50  0001 C CNN
-	1    10100 4175
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J109
-U 1 1 5C915994
-P 10725 4750
-F 0 "J109" H 10698 4723 50  0000 R CNN
-F 1 "BaseInterConnVout" H 10698 4632 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 10725 4750 50  0001 C CNN
-F 3 "~" H 10725 4750 50  0001 C CNN
-	1    10725 4750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9475 4650 9675 4650
-Wire Wire Line
-	9475 4750 10300 4750
-Wire Wire Line
-	9475 4850 10100 4850
-Wire Wire Line
-	9475 4950 9900 4950
-Wire Wire Line
-	9675 4175 9675 4650
-Connection ~ 9675 4650
-Wire Wire Line
-	9675 4650 10525 4650
-Wire Wire Line
-	9900 4175 9900 4950
-Connection ~ 9900 4950
-Wire Wire Line
-	9900 4950 10525 4950
-Wire Wire Line
-	10100 4175 10100 4850
-Connection ~ 10100 4850
-Wire Wire Line
-	10100 4850 10525 4850
-Wire Wire Line
-	10300 4175 10300 4750
-Connection ~ 10300 4750
-Wire Wire Line
-	10300 4750 10525 4750
-$Comp
 L Connector:Conn_01x02_Male J106
 U 1 1 5C9B2CF1
-P 7575 4650
-F 0 "J106" H 7681 4828 50  0000 C CNN
-F 1 "FrontInterConnVin" H 7681 4737 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 7575 4650 50  0001 C CNN
-F 3 "~" H 7575 4650 50  0001 C CNN
-	1    7575 4650
+P 6275 4275
+F 0 "J106" H 6381 4453 50  0000 C CNN
+F 1 "FrontInterConnVin" H 6381 4362 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 6275 4275 50  0001 C CNN
+F 3 "~" H 6275 4275 50  0001 C CNN
+	1    6275 4275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J107
 U 1 1 5C9B2E76
-P 8725 4650
-F 0 "J107" H 8698 4623 50  0000 R CNN
-F 1 "BaseInterConnVin" H 8698 4532 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 8725 4650 50  0001 C CNN
-F 3 "~" H 8725 4650 50  0001 C CNN
-	1    8725 4650
+P 7425 4275
+F 0 "J107" H 7398 4248 50  0000 R CNN
+F 1 "BaseInterConnVin" H 7398 4157 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 7425 4275 50  0001 C CNN
+F 3 "~" H 7425 4275 50  0001 C CNN
+	1    7425 4275
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8275 4550 2    50   Input ~ 0
+Text GLabel 6975 4175 2    50   Input ~ 0
 Vin-Pos19
-Text GLabel 8275 4850 2    50   Input ~ 0
+Text GLabel 6975 4475 2    50   Input ~ 0
 Vin-Neg19
 Wire Wire Line
-	7775 4750 8125 4750
+	6475 4375 6825 4375
 Wire Wire Line
-	8525 4650 8125 4650
+	7225 4275 6825 4275
 Wire Wire Line
-	8275 4850 8125 4850
+	6975 4475 6825 4475
 Wire Wire Line
-	8125 4850 8125 4750
-Connection ~ 8125 4750
+	6825 4475 6825 4375
+Connection ~ 6825 4375
 Wire Wire Line
-	8125 4750 8525 4750
+	6825 4375 7225 4375
 Wire Wire Line
-	8275 4550 8125 4550
+	6975 4175 6825 4175
 Wire Wire Line
-	8125 4550 8125 4650
-Connection ~ 8125 4650
+	6825 4175 6825 4275
+Connection ~ 6825 4275
 Wire Wire Line
-	8125 4650 7775 4650
+	6825 4275 6475 4275
 Text Label 1275 1225 0    39   ~ 0
 DCSleeve
+Wire Notes Line
+	6000 3800 6000 5000
+Wire Notes Line
+	6000 5000 8350 5000
+Wire Notes Line
+	8350 5000 8350 3800
+Wire Notes Line
+	8350 3800 6000 3800
 $EndSCHEMATC
