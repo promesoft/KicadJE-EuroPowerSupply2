@@ -1166,26 +1166,15 @@ Wire Wire Line
 Wire Wire Line
 	6150 2900 7550 2900
 $Comp
-L Connector:Conn_01x02_Male J106
+L Connector:Conn_01x04_Male J106
 U 1 1 5C9B2CF1
 P 6275 4275
 F 0 "J106" H 6381 4453 50  0000 C CNN
 F 1 "FrontInterConnVin" H 6381 4362 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 6275 4275 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6275 4275 50  0001 C CNN
 F 3 "~" H 6275 4275 50  0001 C CNN
 	1    6275 4275
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J107
-U 1 1 5C9B2E76
-P 7425 4275
-F 0 "J107" H 7398 4248 50  0000 R CNN
-F 1 "BaseInterConnVin" H 7398 4157 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:BoardConnector2x2.54x10mm4pin" H 7425 4275 50  0001 C CNN
-F 3 "~" H 7425 4275 50  0001 C CNN
-	1    7425 4275
-	-1   0    0    -1  
 $EndComp
 Text GLabel 6975 4175 2    50   Input ~ 0
 Vin-Pos19
@@ -1194,14 +1183,10 @@ Vin-Neg19
 Wire Wire Line
 	6475 4375 6825 4375
 Wire Wire Line
-	7225 4275 6825 4275
-Wire Wire Line
 	6975 4475 6825 4475
 Wire Wire Line
 	6825 4475 6825 4375
 Connection ~ 6825 4375
-Wire Wire Line
-	6825 4375 7225 4375
 Wire Wire Line
 	6975 4175 6825 4175
 Wire Wire Line
@@ -1267,4 +1252,171 @@ $EndComp
 Connection ~ 6275 1275
 Wire Wire Line
 	6275 1275 6275 1225
+Text GLabel 9150 4175 0    59   Input ~ 0
+I+5
+Wire Wire Line
+	9150 4175 9175 4175
+Text GLabel 9175 4575 0    59   Input ~ 0
+I-12
+Text GLabel 9175 4375 0    59   Input ~ 0
+I+12
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5F5803FF
+P 7850 4275
+F 0 "J?" H 7956 4453 50  0000 C CNN
+F 1 "FrontInterConnVin" H 7956 4362 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 4275 50  0001 C CNN
+F 3 "~" H 7850 4275 50  0001 C CNN
+	1    7850 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4175 7650 4275
+Wire Wire Line
+	6825 4275 7650 4275
+Connection ~ 7650 4275
+Wire Wire Line
+	7650 4475 7650 4375
+Wire Wire Line
+	6825 4375 7650 4375
+Connection ~ 7650 4375
+Wire Wire Line
+	6475 4475 6475 4375
+Connection ~ 6475 4375
+Wire Wire Line
+	6475 4275 6475 4175
+Connection ~ 6475 4275
+$Comp
+L power:-12V #PWR?
+U 1 1 5F5B2912
+P 9175 4675
+F 0 "#PWR?" H 9175 4775 50  0001 C CNN
+F 1 "-12V" H 9190 4848 50  0000 C CNN
+F 2 "" H 9175 4675 50  0001 C CNN
+F 3 "" H 9175 4675 50  0001 C CNN
+	1    9175 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5B2F3A
+P 9175 4775
+F 0 "#PWR?" H 9175 4525 50  0001 C CNN
+F 1 "GND" H 9180 4602 50  0000 C CNN
+F 2 "" H 9175 4775 50  0001 C CNN
+F 3 "" H 9175 4775 50  0001 C CNN
+	1    9175 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F5B34B6
+P 9175 4475
+F 0 "#PWR?" H 9175 4325 50  0001 C CNN
+F 1 "+12V" H 9190 4648 50  0000 C CNN
+F 2 "" H 9175 4475 50  0001 C CNN
+F 3 "" H 9175 4475 50  0001 C CNN
+	1    9175 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5B3CB4
+P 9175 4275
+F 0 "#PWR?" H 9175 4125 50  0001 C CNN
+F 1 "+5V" H 9190 4448 50  0000 C CNN
+F 2 "" H 9175 4275 50  0001 C CNN
+F 3 "" H 9175 4275 50  0001 C CNN
+	1    9175 4275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5F5B43D9
+P 9375 4375
+F 0 "J?" H 9455 4367 50  0000 L CNN
+F 1 "Conn_01x08" H 9455 4276 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9375 4375 50  0001 C CNN
+F 3 "~" H 9375 4375 50  0001 C CNN
+	1    9375 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 4775 8825 4775
+Wire Wire Line
+	8825 4775 8825 4075
+Wire Wire Line
+	8825 4075 9175 4075
+Connection ~ 9175 4775
+Text GLabel 10325 4175 0    59   Input ~ 0
+I+5
+Wire Wire Line
+	10325 4175 10350 4175
+Text GLabel 10350 4575 0    59   Input ~ 0
+I-12
+Text GLabel 10350 4375 0    59   Input ~ 0
+I+12
+$Comp
+L power:-12V #PWR?
+U 1 1 5F62ABF4
+P 10350 4675
+F 0 "#PWR?" H 10350 4775 50  0001 C CNN
+F 1 "-12V" H 10365 4848 50  0000 C CNN
+F 2 "" H 10350 4675 50  0001 C CNN
+F 3 "" H 10350 4675 50  0001 C CNN
+	1    10350 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F62ABFE
+P 10350 4775
+F 0 "#PWR?" H 10350 4525 50  0001 C CNN
+F 1 "GND" H 10355 4602 50  0000 C CNN
+F 2 "" H 10350 4775 50  0001 C CNN
+F 3 "" H 10350 4775 50  0001 C CNN
+	1    10350 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F62AC08
+P 10350 4475
+F 0 "#PWR?" H 10350 4325 50  0001 C CNN
+F 1 "+12V" H 10365 4648 50  0000 C CNN
+F 2 "" H 10350 4475 50  0001 C CNN
+F 3 "" H 10350 4475 50  0001 C CNN
+	1    10350 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F62AC12
+P 10350 4275
+F 0 "#PWR?" H 10350 4125 50  0001 C CNN
+F 1 "+5V" H 10365 4448 50  0000 C CNN
+F 2 "" H 10350 4275 50  0001 C CNN
+F 3 "" H 10350 4275 50  0001 C CNN
+	1    10350 4275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5F62AC1C
+P 10550 4375
+F 0 "J?" H 10630 4367 50  0000 L CNN
+F 1 "Conn_01x08" H 10630 4276 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10550 4375 50  0001 C CNN
+F 3 "~" H 10550 4375 50  0001 C CNN
+	1    10550 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4775 10000 4775
+Wire Wire Line
+	10000 4775 10000 4075
+Wire Wire Line
+	10000 4075 10350 4075
+Connection ~ 10350 4775
 $EndSCHEMATC

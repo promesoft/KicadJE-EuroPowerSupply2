@@ -1276,7 +1276,7 @@ F 3 "~" H 3925 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMBT2907A:MMBT2907A Q?
+L MMBT2907_:MMBT2907* Q?
 U 1 1 5E8B7031
 P 3000 5625
 AR Path="/5E8B7031" Ref="Q?"  Part="1" 
@@ -1761,7 +1761,7 @@ F 3 "~" H 4850 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMBT2907A:MMBT2907A Q?
+L MMBT2907_:MMBT2907* Q?
 U 1 1 5EEC4AA5
 P 4725 1750
 AR Path="/5EEC4AA5" Ref="Q?"  Part="1" 
@@ -1972,4 +1972,25 @@ Text Label 3100 5625 0    98   ~ 0
 b4
 Text Label 3125 6300 0    98   ~ 0
 b5
+Text GLabel 2875 6050 0    59   Input ~ 0
+I-12
+Wire Wire Line
+	2900 6100 2900 6050
+Wire Wire Line
+	2900 6050 2875 6050
+Connection ~ 2900 6100
+Text GLabel 2875 5900 0    59   Input ~ 0
+I+12
+Wire Wire Line
+	2875 5900 2900 5900
+Wire Wire Line
+	2900 5900 2900 5825
+Connection ~ 2900 5825
+Text GLabel 4600 2025 0    59   Input ~ 0
+I+5
+Wire Wire Line
+	4600 2025 4625 2025
+Wire Wire Line
+	4625 2025 4625 1950
+Connection ~ 4625 1950
 $EndSCHEMATC
