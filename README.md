@@ -38,7 +38,7 @@
 ## Issues and Notes
 
 # Pictures
-![KicadJE-EuroPowerSupply2.png](.png)
+![](KicadJE-EuroPowerSupply2.png)
 
 # Schematic
 
