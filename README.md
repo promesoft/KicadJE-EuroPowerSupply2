@@ -7,10 +7,10 @@
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | done? |
-| | pcb |  doing |
-| | gerber |  |
-| production  |   |  |
+| create material  | sch | done |
+| | pcb |  done |
+| | gerber | done |
+| production  |   | uploaded |
 |  | produced |  |
 |  | delivered |  |
 ## Preliminary validation
