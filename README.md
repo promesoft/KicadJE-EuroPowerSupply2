@@ -1,5 +1,5 @@
 # KicadJE-EuroPowerSupply2
-4HP PSU
+4HP PSU faceplate with 80x100mm PSU + PDU board. Faceplate input from a laptop PSU (19V) and may be daisychained to the next Eurorack unit.
 
 # Vital Components
 
@@ -46,4 +46,5 @@
 
 
 # Inspiration
-## ..
+## Rev 1
+https://github.com/promesoft/KicadJE-EuroPowerSupply
