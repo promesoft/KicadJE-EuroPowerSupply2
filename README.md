@@ -3,14 +3,14 @@
 
 # Vital Components
 
-# Status - startup
+# Status - in production
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | done |
 | | pcb |  done |
 | | gerber | done |
-| production  |   | uploaded |
+| production  |   | in production |
 |  | produced |  |
 |  | delivered |  |
 ## Preliminary validation
