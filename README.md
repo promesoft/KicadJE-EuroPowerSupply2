@@ -3,20 +3,20 @@
 
 # Vital Components
 
-# Status - in production
+# Status - being assembled
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | done |
 | | pcb |  done |
 | | gerber | done |
-| production  |   | in production |
-|  | produced |  |
-|  | delivered |  |
+| production  |   | done |
+|  | produced | done |
+|  | delivered | done |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
 | Initial Product Test |  |  |
