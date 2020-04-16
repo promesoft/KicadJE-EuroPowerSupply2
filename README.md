@@ -18,7 +18,7 @@
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
 | Initial Technical Test |  | OL LED's lighting up without load |
-| Initial Product Test |  | ok |
+| Initial Product Test |  | ok - Powers the uP DAC nicely|
 
 ## Secondary validation
 | Test  | Detail | Status |
