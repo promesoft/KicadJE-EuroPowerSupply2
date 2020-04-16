@@ -3,7 +3,7 @@
 
 # Vital Components
 
-# Status - being assembled
+# Status - assembled
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -17,10 +17,8 @@
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
-| Initial Technical Test |  |  |
-| Initial Technical Test |  |  |
-| Initial Product Test |  |  |
-| Initial Product Test |  |  |
+| Initial Technical Test |  | OL LED's lighting up without load |
+| Initial Product Test |  | ok |
 
 ## Secondary validation
 | Test  | Detail | Status |
@@ -34,6 +32,7 @@
 
 ## Errata
 ### Errata - 
+Holes for Pwr in and out are 2mm too small in face plate
 
 ## Issues and Notes
 
