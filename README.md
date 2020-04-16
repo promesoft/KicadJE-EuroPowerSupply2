@@ -35,6 +35,8 @@
 Holes for Pwr in and out are 2mm too small in face plate
 
 ## Issues and Notes
+There is just enough room on the front PCB to add a JST header for power feed to baseboard.
+
 Input cap = 470uF/50V
 
 Reg input cap 470uF/16V for 5V
