@@ -35,11 +35,11 @@
 Holes for Pwr in and out are 2mm too small in face plate
 
 ## Issues and Notes
-Input cap = 470uF/50V
-Reg input cap 470uF/16V for 5V
-Reg input cap 100uF/35V for +-12V
-Reg output cap 470uF/16V for all
-Only half the headers has decoupling caps
+ Input cap = 470uF/50V
+ Reg input cap 470uF/16V for 5V
+ Reg input cap 100uF/35V for +-12V
+ Reg output cap 470uF/16V for all
+ Only half the headers has decoupling caps
 
 # Pictures
 ![](KicadJE-EuroPowerSupply2.png)
