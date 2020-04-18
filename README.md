@@ -3,7 +3,7 @@
 
 # Vital Components
 
-# Status - assembled
+# Status - mounted in rack
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -18,6 +18,7 @@
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
 | Initial Technical Test |  | OL LED's lighting up without load |
+| Initial Technical Test |  | OL LED's ok with 2k2 but unsure of how they work now - 3k9 is ok without load but makes a bit of a light at a few 100 mA |
 | Initial Product Test |  | ok - Powers the uP DAC nicely|
 
 ## Secondary validation
