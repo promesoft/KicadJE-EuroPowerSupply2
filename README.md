@@ -19,6 +19,7 @@
 | Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
 | Initial Technical Test |  | OL LED's lighting up without load |
 | Initial Technical Test |  | OL LED's ok with 2k2 but unsure of how they work now - 3k9 is ok without load but makes a bit of a light at a few 100 mA |
+| Initial Technical Test |  | input fuse experienced a few problems after shoring the input of the DC-DC by mistake
 | Initial Product Test |  | ok - Powers the uP DAC nicely|
 
 ## Secondary validation
@@ -47,6 +48,8 @@ Reg input cap 100uF/35V for +-12V
 Reg output cap 470uF/16V for all
 
 Only half the headers has decoupling caps
+
+Not easy to measure the OL circuit as it is VERY close to the DC-DC input
 
 # Pictures
 ![](KicadJE-EuroPowerSupply2.png)
