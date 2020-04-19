@@ -51,6 +51,10 @@ Only half the headers has decoupling caps
 
 Not easy to measure the OL circuit as it is VERY close to the DC-DC input
 
+Add current limiter on input
+
+Calc 
+
 # Pictures
 ![](KicadJE-EuroPowerSupply2_top.png)
 ![](KicadJE-EuroPowerSupply2_bottom.png)
