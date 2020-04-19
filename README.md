@@ -53,9 +53,10 @@ Not easy to measure the OL circuit as it is VERY close to the DC-DC input
 
 Add current limiter on input
 
-Consider calc initial regulator stage as Capacitor multiplier as - https://www.google.com/search?q=eeblog+david+jones+capacitor+multiplier&oq=eeblog+david+jones+capacitor+mul&aqs=chrome.1.69i57j33.18679j1j7&sourceid=chrome&ie=UTF-8
+Consider calc initial regulator stage as Capacitor multiplier and add small signal BJT in darlington config.
+ - https://www.google.com/search?q=eeblog+david+jones+capacitor+multiplier&oq=eeblog+david+jones+capacitor+mul&aqs=chrome.1.69i57j33.18679j1j7&sourceid=chrome&ie=UTF-8
 
-Calc 
+Place +/-15v header away from heatsink area.
 
 # Pictures
 ![](KicadJE-EuroPowerSupply2_top.png)
