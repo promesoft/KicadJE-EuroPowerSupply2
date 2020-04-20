@@ -18,7 +18,7 @@
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | good alignment w panel - panel: pwr holes 2 mm too small |
 | Initial Technical Test |  | OL LED's lighting up without load - probably due to the extra resistance of the polyfuse |
-| Initial Technical Test |  | OL LED's ok with 2k2 but unsure of how they work now - 3k9 is ok without load but makes a bit of a light at a few 100 mA |
+| Initial Technical Test |  | OL LED's ok with 2k2 but unsure of how they work now - 3k9 is ok without load but makes a bit of a light at a few XX mA |
 | Initial Technical Test |  | input fuse experienced a few problems after shoring the input of the DC-DC by mistake
 | Initial Product Test |  | ok - Powers the uP DAC nicely|
 
