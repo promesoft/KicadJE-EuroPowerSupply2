@@ -8,7 +8,7 @@
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | done |
-| | pcb | done |
+| | pcb | done |
 | | gerber | done |
 | production  |   | done |
 |  | produced | done |
