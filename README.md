@@ -37,6 +37,8 @@
 ### Errata - 
 Holes for Pwr in and out are 2mm too small in face plate
 
+Place DCDC input further away from electronics on the backside - risky location
+
 ## Issues and Notes
 There is just enough room on the front PCB to add a JST header for power feed to baseboard.
 
