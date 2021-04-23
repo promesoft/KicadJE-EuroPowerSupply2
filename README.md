@@ -29,8 +29,9 @@
 | Product Test |  | |
 | Quality |  | |
 | Quality | | |
-| Long Term Product Test |  |  |
-| Power Draw |  | 
+| Long Term Product Test |  | Working for a year without stability issues | 
+|  | | Bridge recitifier gets warm/hot |
+| Power Draw | up to 750mA 19V | 
 
 ## Errata
 ### Errata - 
