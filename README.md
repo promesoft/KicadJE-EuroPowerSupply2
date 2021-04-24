@@ -42,13 +42,13 @@ Place DCDC input further away from electronics on the backside - risky location
 ## Issues and Notes
 There is just enough room on the front PCB to add a JST header for power feed to baseboard.
 
-Input cap = 470uF/50V
+Input cap C101 = 470uF/50V
 
-Reg input cap 470uF/16V for 5V
+Reg input cap C207 - 470uF/16V for 5V
 
-Reg input cap 100uF/35V for +-12V
+Reg input cap C204 C212 - 100uF/35V for +-12V
 
-Reg output cap 470uF/16V for all
+Reg output cap C206 C209 C214 - 470uF/16V for all
 
 Only half the headers has decoupling caps
 
