@@ -58,10 +58,9 @@ Only half the headers has decoupling caps
 Place +/-15v header away from heatsink area.
 
 ### Overload Circuit
-Not easy to measure the OL circuit as it is VERY close to the DC-DC input
-
-Add current limiter on input and consider changing from OL to currentlimier with limit indication
-
+Not easy to measure the OL circuit as it is VERY close to the DC-DC input 
+Add current limiter on input and consider changing from OL to currentlimier with limit indication 
+OL LED's ok with 2k2 but unsure of how they work now - 3k9 is ok without load but makes a bit of a light at a few XX mA
 ### Extensions
 Consider calc initial regulator stage as Capacitor multiplier and add small signal BJT in darlington config.
  - https://www.google.com/search?q=eeblog+david+jones+capacitor+multiplier&oq=eeblog+david+jones+capacitor+mul&aqs=chrome.1.69i57j33.18679j1j7&sourceid=chrome&ie=UTF-8
