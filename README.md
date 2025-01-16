@@ -1,6 +1,10 @@
 # KicadJE-EuroPowerSupply2
 4HP PSU faceplate with 80x100mm PSU + PDU board. Faceplate input from a laptop PSU (19V) and may be daisychained to the next Eurorack unit.
 
+Please note this method of making +- 12v could be impaired by the laptop PSU ground connection. Some PSU's connect earth to GND (sleeve) which will be connected to -12v and not GND in this circuit. If the laptop PSU only has 2 pins or the 3rd pin is not connected to the sleeve of 19v supply there will be no issues with this design.
+
+There is a third version that does not rely on a laptop supply in the making (2025 Q1)
+
 # Vital Components
 
 # Status - mounted in rack
