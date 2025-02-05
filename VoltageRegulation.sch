@@ -1276,7 +1276,7 @@ F 3 "~" H 3925 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMBT2907_:MMBT2907* Q?
+L KicadJE-EuroPowerSupply2-rescue:MMBT2907*-MMBT2907_ Q?
 U 1 1 5E8B7031
 P 3000 5625
 AR Path="/5E8B7031" Ref="Q?"  Part="1" 
@@ -1478,9 +1478,11 @@ $EndComp
 Wire Wire Line
 	3725 6100 3725 5975
 $Comp
-L MMBT2222A:MMBT2222A Q205
+L KicadJE-EuroPowerSupply2-rescue:MMBT2222A-MMBT2222A Q205
 U 1 1 5EBAABA8
 P 3000 6300
+AR Path="/5EBAABA8" Ref="Q205"  Part="1" 
+AR Path="/5CBAA806/5EBAABA8" Ref="Q205"  Part="1" 
 F 0 "Q205" H 3144 6346 50  0000 L CNN
 F 1 "MMBT2222A" H 3144 6255 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3000 6300 50  0001 L BNN
@@ -1761,7 +1763,7 @@ F 3 "~" H 4850 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMBT2907_:MMBT2907* Q?
+L KicadJE-EuroPowerSupply2-rescue:MMBT2907*-MMBT2907_ Q?
 U 1 1 5EEC4AA5
 P 4725 1750
 AR Path="/5EEC4AA5" Ref="Q?"  Part="1" 
