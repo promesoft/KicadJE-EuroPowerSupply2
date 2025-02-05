@@ -71,9 +71,9 @@ Consider calc initial regulator stage as Capacitor multiplier and add small sign
  - https://www.google.com/search?q=eeblog+david+jones+capacitor+multiplier&oq=eeblog+david+jones+capacitor+mul&aqs=chrome.1.69i57j33.18679j1j7&sourceid=chrome&ie=UTF-8
 
 # Pictures
-![](WhatsApp Image 2025-02-05 at 20.49.06_7b93f92e.jpg)
-![Inside Picture](WhatsApp Image 2025-02-05 at 20.48.50_54ef1007.jpg)
-![Inside Picture](WhatsApp Image 2025-02-05 at 20.48.59_01db5d58.jpg)
+![Front Picture]("WhatsApp Image 2025-02-05 at 20.49.06_7b93f92e.jpg")
+![Inside Picture]("WhatsApp Image 2025-02-05 at 20.48.50_54ef1007.jpg")
+![Inside Picture]("WhatsApp Image 2025-02-05 at 20.48.59_01db5d58.jpg")
 ## Rendered
 ![](KicadJE-EuroPowerSupply2.png)
 ![](KicadJE-EuroPowerSupply2_top.png)
